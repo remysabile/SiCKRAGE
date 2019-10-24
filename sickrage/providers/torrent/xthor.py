@@ -27,7 +27,7 @@ from sickrage.providers import TorrentProvider
 
 class XthorProvider(TorrentProvider):
     def __init__(self):
-        super(XthorProvider, self).__init__("Xthor", "https://xthor.to", True)
+        super(XthorProvider, self).__init__("Xthor", "https://xthor.tk", True)
 
         self.urls.update({
             'search': "https://api.xthor.to"
